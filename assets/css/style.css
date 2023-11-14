@@ -1,0 +1,81 @@
+/* ====================================================================
+                                RESET
+=====================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+  border: 5px double #FFC300;
+  color: #fca311;
+  padding-bottom: 0;
+  margin: 1%;
+}
+body section {
+  background-color: #14213d;
+  width: 50%;
+  text-align: center;
+  padding-block: 5%;
+  border: 2px solid #fca311;
+  margin: 3% auto;
+}
+body section h2 {
+  margin-block: 3%;
+}
+body section button {
+  background-color: #fca311;
+  color: #000000;
+  padding: 5px;
+  width: 50%;
+  margin: 20px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+body section .rechteck {
+  height: 40px;
+  width: 40px;
+  background-color: #d9eeec;
+  color: #da9833;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section .weiss {
+  color: #000000;
+  background-color: #fa9600;
+  border-radius: 50%;
+  border: 2px solid #3c70a4;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+body section .umwickeln {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  justify-items: center;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
